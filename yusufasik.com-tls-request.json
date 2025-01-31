@@ -1,0 +1,411 @@
+[
+  {
+    "_index": "packets-2025-01-30",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.section_number": "1",
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "\\Device\\NPF_{03623442-EA17-4963-A531-65D69F5BBEF5}",
+            "frame.interface_description": "Wi-Fi"
+          },
+          "frame.encap_type": "1",
+          "frame.time": "Jan 30, 2025 23:12:33.893182000 Turkey Standard Time",
+          "frame.time_utc": "Jan 30, 2025 20:12:33.893182000 UTC",
+          "frame.time_epoch": "1738267953.893182000",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_delta": "0.000000000",
+          "frame.time_delta_displayed": "0.000000000",
+          "frame.time_relative": "7.578159000",
+          "frame.number": "49",
+          "frame.len": "477",
+          "frame.cap_len": "477",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "eth:ethertype:ip:tcp:tls",
+          "frame.coloring_rule.name": "TCP",
+          "frame.coloring_rule.string": "tcp"
+        },
+        "eth": {
+          "eth.dst": "f4:4d:5c:5f:a0:b0",
+          "eth.dst_tree": {
+            "eth.dst_resolved": "ZyxelCommuni_5f:a0:b0",
+            "eth.dst.oui": "16010588",
+            "eth.dst.oui_resolved": "Zyxel Communications Corporation",
+            "eth.dst.lg": "0",
+            "eth.dst.ig": "0",
+            "eth.addr": "f4:4d:5c:5f:a0:b0",
+            "eth.addr_resolved": "ZyxelCommuni_5f:a0:b0",
+            "eth.addr.oui": "16010588",
+            "eth.addr.oui_resolved": "Zyxel Communications Corporation",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.src": "2c:3b:70:47:f6:5c",
+          "eth.src_tree": {
+            "eth.src_resolved": "AzureWaveTec_47:f6:5c",
+            "eth.src.oui": "2898800",
+            "eth.src.oui_resolved": "AzureWave Technology Inc.",
+            "eth.src.lg": "0",
+            "eth.src.ig": "0",
+            "eth.addr": "2c:3b:70:47:f6:5c",
+            "eth.addr_resolved": "AzureWaveTec_47:f6:5c",
+            "eth.addr.oui": "2898800",
+            "eth.addr.oui_resolved": "AzureWave Technology Inc.",
+            "eth.lg": "0",
+            "eth.ig": "0"
+          },
+          "eth.type": "0x0800",
+          "eth.stream": "0"
+        },
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "463",
+          "ip.id": "0xefbf",
+          "ip.flags": "0x02",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "128",
+          "ip.proto": "6",
+          "ip.checksum": "0xc8cc",
+          "ip.checksum.status": "2",
+          "ip.src": "192.168.1.17",
+          "ip.addr": "192.168.1.17",
+          "ip.src_host": "192.168.1.17",
+          "ip.host": "192.168.1.17",
+          "ip.dst": "66.33.60.194",
+          "ip.addr": "66.33.60.194",
+          "ip.dst_host": "66.33.60.194",
+          "ip.host": "66.33.60.194",
+          "ip.stream": "2"
+        },
+        "tcp": {
+          "tcp.srcport": "59016",
+          "tcp.dstport": "443",
+          "tcp.port": "59016",
+          "tcp.port": "443",
+          "tcp.stream": "2",
+          "tcp.completeness": "15",
+          "tcp.completeness_tree": {
+            "tcp.completeness.rst": "0",
+            "tcp.completeness.fin": "0",
+            "tcp.completeness.data": "1",
+            "tcp.completeness.ack": "1",
+            "tcp.completeness.syn-ack": "1",
+            "tcp.completeness.syn": "1",
+            "tcp.completeness.str": "··DASS"
+          },
+          "tcp.len": "423",
+          "tcp.seq": "1453",
+          "tcp.seq_raw": "2747967132",
+          "tcp.nxtseq": "1876",
+          "tcp.ack": "1",
+          "tcp.ack_raw": "2835530026",
+          "tcp.hdr_len": "20",
+          "tcp.flags": "0x0018",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ae": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ece": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "1",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······AP···"
+          },
+          "tcp.window_size_value": "255",
+          "tcp.window_size": "65280",
+          "tcp.window_size_scalefactor": "256",
+          "tcp.checksum": "0xa2f8",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "Timestamps": {
+            "tcp.time_relative": "0.042713000",
+            "tcp.time_delta": "0.000000000"
+          },
+          "tcp.analysis": {
+            "tcp.analysis.initial_rtt": "0.042411000",
+            "tcp.analysis.bytes_in_flight": "1875",
+            "tcp.analysis.push_bytes_sent": "1875"
+          },
+          "tcp.payload": "04:03:08:04:04:01:05:03:08:05:05:01:08:06:06:01:00:10:00:0e:00:0c:02:68:32:08:68:74:74:70:2f:31:2e:31:fe:0d:00:ba:00:00:01:00:01:84:00:20:7f:ce:b6:11:b2:cd:10:47:c9:d9:0c:49:b9:db:f1:05:02:11:99:eb:ed:2d:44:de:4e:73:c5:f6:0b:c0:70:11:00:90:8e:e2:05:5a:dc:6e:54:19:26:7e:6e:54:2a:15:ed:5f:da:7d:fc:39:34:16:d1:13:e7:8f:37:0a:85:1d:3e:b3:5d:88:e8:b9:df:e0:58:38:ac:48:5d:00:dc:66:e7:78:eb:b0:2d:90:2d:8a:cd:fa:f6:bd:a7:36:8f:18:a4:5d:ca:1d:96:15:fc:15:19:1a:a6:a9:73:5e:de:cb:06:c0:ae:98:94:2e:7c:84:a8:04:4f:63:4c:24:ad:80:c2:3f:62:79:0f:0f:ad:82:72:9c:c3:db:26:22:e0:23:6c:6d:b4:d7:d5:35:2d:26:d4:fc:3a:52:fc:6d:55:94:7c:31:87:13:8f:3f:87:76:57:47:19:19:61:5e:03:84:36:ed:00:0b:00:02:01:00:00:0a:00:0c:00:0a:da:da:11:ec:00:1d:00:17:00:18:00:23:00:00:00:1b:00:03:02:00:02:44:cd:00:05:00:03:02:68:32:4a:4a:00:01:00:00:29:00:94:00:6f:00:69:4b:15:6f:9b:71:43:ba:33:d4:5b:1c:14:da:35:18:45:2e:c8:14:2a:68:de:1e:2d:c8:a3:f0:a8:83:ae:e5:a0:95:9c:28:65:dc:d6:3b:a2:3e:22:97:06:37:25:60:a0:00:8d:6d:d2:0a:7c:0e:57:9c:6b:9a:d6:f2:54:2e:67:17:84:e8:5b:a5:48:f5:af:2f:3a:b7:f6:f1:3f:0d:be:19:a4:3c:d7:bc:86:bf:f3:b3:88:e2:04:7a:49:34:ed:26:17:7a:ed:48:cb:e6:5c:c5:b0:ba:ee:17:00:21:20:12:26:8a:d0:32:1c:ff:f1:85:d5:3c:0b:d1:5e:ff:e2:8d:62:cc:0e:4b:42:61:c7:bd:5c:0d:ef:3d:6e:4e:03",
+          "tcp.segment_data": "04:03:08:04:04:01:05:03:08:05:05:01:08:06:06:01:00:10:00:0e:00:0c:02:68:32:08:68:74:74:70:2f:31:2e:31:fe:0d:00:ba:00:00:01:00:01:84:00:20:7f:ce:b6:11:b2:cd:10:47:c9:d9:0c:49:b9:db:f1:05:02:11:99:eb:ed:2d:44:de:4e:73:c5:f6:0b:c0:70:11:00:90:8e:e2:05:5a:dc:6e:54:19:26:7e:6e:54:2a:15:ed:5f:da:7d:fc:39:34:16:d1:13:e7:8f:37:0a:85:1d:3e:b3:5d:88:e8:b9:df:e0:58:38:ac:48:5d:00:dc:66:e7:78:eb:b0:2d:90:2d:8a:cd:fa:f6:bd:a7:36:8f:18:a4:5d:ca:1d:96:15:fc:15:19:1a:a6:a9:73:5e:de:cb:06:c0:ae:98:94:2e:7c:84:a8:04:4f:63:4c:24:ad:80:c2:3f:62:79:0f:0f:ad:82:72:9c:c3:db:26:22:e0:23:6c:6d:b4:d7:d5:35:2d:26:d4:fc:3a:52:fc:6d:55:94:7c:31:87:13:8f:3f:87:76:57:47:19:19:61:5e:03:84:36:ed:00:0b:00:02:01:00:00:0a:00:0c:00:0a:da:da:11:ec:00:1d:00:17:00:18:00:23:00:00:00:1b:00:03:02:00:02:44:cd:00:05:00:03:02:68:32:4a:4a:00:01:00:00:29:00:94:00:6f:00:69:4b:15:6f:9b:71:43:ba:33:d4:5b:1c:14:da:35:18:45:2e:c8:14:2a:68:de:1e:2d:c8:a3:f0:a8:83:ae:e5:a0:95:9c:28:65:dc:d6:3b:a2:3e:22:97:06:37:25:60:a0:00:8d:6d:d2:0a:7c:0e:57:9c:6b:9a:d6:f2:54:2e:67:17:84:e8:5b:a5:48:f5:af:2f:3a:b7:f6:f1:3f:0d:be:19:a4:3c:d7:bc:86:bf:f3:b3:88:e2:04:7a:49:34:ed:26:17:7a:ed:48:cb:e6:5c:c5:b0:ba:ee:17:00:21:20:12:26:8a:d0:32:1c:ff:f1:85:d5:3c:0b:d1:5e:ff:e2:8d:62:cc:0e:4b:42:61:c7:bd:5c:0d:ef:3d:6e:4e:03"
+        },
+        "tcp.segments": {
+          "tcp.segment": "48",
+          "tcp.segment": "49",
+          "tcp.segment.count": "2",
+          "tcp.reassembled.length": "1875",
+          "tcp.reassembled.data": "16:03:01:07:4e:01:00:07:4a:03:03:a2:28:02:25:00:ae:a1:4f:38:88:5a:83:d3:3c:75:ac:30:8f:8f:5b:b8:45:81:86:54:61:8b:2a:2a:f4:1c:3a:20:c2:4b:76:1c:58:91:43:f6:b9:41:dd:ce:dc:e6:7c:c4:e9:07:7e:f0:2f:16:30:97:c8:4b:83:dd:01:73:9a:8f:00:20:4a:4a:13:01:13:02:13:03:c0:2b:c0:2f:c0:2c:c0:30:cc:a9:cc:a8:c0:13:c0:14:00:9c:00:9d:00:2f:00:35:01:00:06:e1:aa:aa:00:00:00:2d:00:02:01:01:00:12:00:00:00:00:00:12:00:10:00:00:0d:79:75:73:75:66:61:73:69:6b:2e:63:6f:6d:00:05:00:05:01:00:00:00:00:00:33:04:ef:04:ed:da:da:00:01:00:11:ec:04:c0:02:f2:0a:91:97:ba:f6:07:50:75:01:5c:e3:73:28:2e:03:37:f5:51:92:01:bb:b9:cc:48:9b:68:31:9f:4c:c7:85:93:92:4d:d1:a1:6b:36:28:ab:86:f9:83:c3:e6:4a:f8:c9:2a:ba:e5:63:2b:46:cc:c0:f0:5d:d8:67:85:83:0a:6d:60:53:81:8d:04:46:41:b1:2b:c0:69:2c:62:ea:ce:12:d9:5e:97:26:c9:8d:2c:b4:91:5c:20:e6:18:4a:27:15:75:58:65:5d:8d:6a:c3:0e:e1:a4:21:42:37:23:d3:4a:63:03:90:58:85:c1:5b:19:8c:dc:09:46:20:fb:19:bc:f1:a3:41:42:c0:fc:b8:0b:a0:c0:28:9b:81:98:a4:90:b4:34:89:1e:5d:1b:45:9a:21:31:6c:e9:47:12:76:55:dd:14:3c:d1:87:6d:bb:4c:a6:27:17:49:c0:96:16:2f:00:97:35:f0:61:52:51:aa:c3:74:0a:74:4b:4a:b8:e2:37:d2:68:54:f9:1c:64:6b:01:cb:70:9c:2f:cc:cc:77:8a:03:89:74:d0:50:1f:99:6b:e8:70:9a:05:9c:33:57:13:04:fa:10:30:9c:c0:4c:19:b7:a4:53:4b:b5:41:43:af:34:40:c7:cc:f1:75:8b:f8:61:15:ac:83:7d:a9:74:ec:f9:52:88:95:19:fc:91:83:5e:ac:03:00:f3:03:6b:fa:32:23:25:17:06:b5:98:0c:e8:76:e8:a3:cd:b1:86:2d:73:6b:69:50:f3:36:24:a0:20:5c:72:86:86:64:85:9a:46:c1:8b:e0:93:ff:83:8c:f1:b7:66:b5:c6:72:24:1c:10:99:9a:a3:dd:91:8d:58:01:28:0c:3c:c9:91:50:4e:5f:51:72:3e:0b:b4:8c:d8:8a:5d:73:78:bf:c9:1e:43:b2:1b:5f:a1:0b:bf:66:86:73:f7:86:40:2b:1c:15:69:24:23:58:b1:78:54:09:04:01:a7:4d:d5:b0:ab:41:b2:97:1a:26:71:57:10:58:46:48:12:a5:8d:8a:6c:62:0f:f7:94:a8:b3:57:e4:62:c6:bd:63:52:db:80:05:a1:b1:5f:47:08:51:7a:c7:9d:34:5b:43:61:4c:c1:19:ac:0c:b3:f6:55:94:58:65:46:f3:ba:77:50:0d:63:80:9a:7e:a9:b1:aa:30:24:31:00:44:68:99:a5:6c:50:74:3d:b1:79:92:82:be:7c:d0:56:dd:16:9d:c2:c4:31:18:70:37:5b:97:c7:98:db:77:88:32:1a:a2:65:7c:ad:98:0a:44:4a:5c:79:8b:92:74:22:2d:ef:c8:b6:9c:18:4d:83:87:a2:ee:92:29:56:83:bb:ba:ba:96:ef:20:8d:65:08:35:89:18:bb:1d:c5:ca:5e:e5:6b:04:50:39:21:f5:93:49:04:a1:5f:31:28:02:31:9b:9e:f9:b5:9b:a5:21:fd:d4:b2:78:1b:0b:dc:db:8e:ac:89:3b:fe:bb:9a:d4:f6:a4:fd:f0:ce:16:db:50:86:36:9d:5c:72:9e:08:79:bd:aa:ba:69:74:1c:0d:b0:08:9f:c5:72:70:9a:82:98:d4:47:71:42:15:63:bd:92:59:3d:63:3c:c9:ac:c4:cd:5c:26:32:62:2b:70:fc:cb:06:b9:19:ab:65:98:13:79:2f:13:13:93:ad:13:b9:c6:da:c2:bd:64:3d:40:c4:be:9f:63:ca:98:b1:a0:55:e1:29:44:41:5a:b7:58:1b:a7:c7:1b:d5:27:b5:dc:11:a1:66:70:20:17:1a:59:04:59:c2:4b:3b:a9:9f:68:71:07:8b:8c:76:a0:99:3d:b6:04:1b:c9:73:0b:9c:7e:18:9b:ba:ee:b0:5b:a1:73:cc:56:49:20:50:9c:0e:2b:2c:cf:1c:01:26:23:85:ab:8e:f3:79:74:5a:9a:97:f8:28:4b:50:89:e6:52:66:f6:23:70:8c:f6:77:53:55:8d:aa:02:24:a6:ba:c3:06:c7:cc:a9:ea:88:b4:d7:b9:b4:99:6e:0b:d2:56:81:89:6f:33:aa:68:4b:42:03:ce:d1:61:c1:68:8c:11:b4:45:52:79:3d:48:d1:c7:2e:67:6d:4c:a0:65:04:a1:c6:48:02:bb:20:da:07:ee:79:bf:7e:b3:04:92:f8:04:6d:83:06:a1:70:12:1d:69:5d:78:f3:61:f1:e1:a9:b6:b8:9f:4c:a2:c5:2e:fa:cf:15:6b:7b:58:71:4f:2d:e0:c9:28:f7:96:83:d1:14:c2:64:41:cf:bc:9e:aa:3c:b7:20:86:10:a0:77:94:a3:52:87:f3:d2:5d:80:c3:2d:3f:a7:91:0a:c5:c4:57:ca:58:cb:16:c3:bd:11:98:95:9a:14:54:16:ac:b5:a8:4d:f6:bc:86:03:65:05:bf:80:32:e5:82:9f:80:18:6d:09:ba:b2:b5:52:2a:ec:61:aa:b3:c3:9a:2e:00:c1:8e:35:71:d8:98:a3:e4:55:16:5c:02:5d:fb:f7:5c:cc:05:91:0f:9a:84:c5:78:52:21:56:aa:79:e8:3a:03:f6:63:80:c8:b5:bd:67:65:4d:7a:7d:1f:f6:c2:fc:9a:5e:2d:bb:21:8e:db:36:91:02:59:17:26:af:c9:31:58:f0:9c:ab:ea:ba:88:01:3c:89:d0:72:56:6d:7a:67:65:37:06:80:00:25:7a:70:49:9c:8c:87:09:02:46:f9:57:9d:be:cb:c9:6c:c7:5e:f4:9a:08:f7:0a:ca:d8:7b:c2:65:16:51:9c:82:47:8a:62:c8:9e:5c:ba:47:0a:6e:6a:69:a7:0f:c5:0d:ad:04:be:79:e1:2a:32:b1:51:c8:92:79:11:f4:2b:95:b8:1f:0f:e8:11:23:90:1c:75:00:59:68:76:5f:02:10:40:61:aa:5e:79:c8:4c:2c:c8:94:de:b4:62:be:9a:42:65:98:1b:81:07:cb:2e:36:9e:05:a8:ca:cc:ea:07:33:c9:69:47:c8:75:0d:95:7c:42:45:ad:43:2c:4c:b4:be:2a:d4:65:b0:78:e9:8d:38:39:60:d8:2a:c0:d9:50:47:03:7b:db:b4:39:d5:b2:4f:fe:7b:2e:b3:94:ef:43:fb:25:b5:c9:cc:bb:a4:da:10:78:7f:bb:7e:2f:f5:43:e4:fd:95:36:8a:82:30:0c:e6:78:84:39:00:1d:00:20:e9:66:da:94:47:b4:b0:51:9b:df:8c:69:78:81:ab:9c:84:67:f3:1a:9f:61:5e:3c:00:db:d0:db:49:68:f2:0c:ff:01:00:01:00:00:2b:00:07:06:4a:4a:03:04:03:03:00:17:00:00:00:0d:00:12:00:10:04:03:08:04:04:01:05:03:08:05:05:01:08:06:06:01:00:10:00:0e:00:0c:02:68:32:08:68:74:74:70:2f:31:2e:31:fe:0d:00:ba:00:00:01:00:01:84:00:20:7f:ce:b6:11:b2:cd:10:47:c9:d9:0c:49:b9:db:f1:05:02:11:99:eb:ed:2d:44:de:4e:73:c5:f6:0b:c0:70:11:00:90:8e:e2:05:5a:dc:6e:54:19:26:7e:6e:54:2a:15:ed:5f:da:7d:fc:39:34:16:d1:13:e7:8f:37:0a:85:1d:3e:b3:5d:88:e8:b9:df:e0:58:38:ac:48:5d:00:dc:66:e7:78:eb:b0:2d:90:2d:8a:cd:fa:f6:bd:a7:36:8f:18:a4:5d:ca:1d:96:15:fc:15:19:1a:a6:a9:73:5e:de:cb:06:c0:ae:98:94:2e:7c:84:a8:04:4f:63:4c:24:ad:80:c2:3f:62:79:0f:0f:ad:82:72:9c:c3:db:26:22:e0:23:6c:6d:b4:d7:d5:35:2d:26:d4:fc:3a:52:fc:6d:55:94:7c:31:87:13:8f:3f:87:76:57:47:19:19:61:5e:03:84:36:ed:00:0b:00:02:01:00:00:0a:00:0c:00:0a:da:da:11:ec:00:1d:00:17:00:18:00:23:00:00:00:1b:00:03:02:00:02:44:cd:00:05:00:03:02:68:32:4a:4a:00:01:00:00:29:00:94:00:6f:00:69:4b:15:6f:9b:71:43:ba:33:d4:5b:1c:14:da:35:18:45:2e:c8:14:2a:68:de:1e:2d:c8:a3:f0:a8:83:ae:e5:a0:95:9c:28:65:dc:d6:3b:a2:3e:22:97:06:37:25:60:a0:00:8d:6d:d2:0a:7c:0e:57:9c:6b:9a:d6:f2:54:2e:67:17:84:e8:5b:a5:48:f5:af:2f:3a:b7:f6:f1:3f:0d:be:19:a4:3c:d7:bc:86:bf:f3:b3:88:e2:04:7a:49:34:ed:26:17:7a:ed:48:cb:e6:5c:c5:b0:ba:ee:17:00:21:20:12:26:8a:d0:32:1c:ff:f1:85:d5:3c:0b:d1:5e:ff:e2:8d:62:cc:0e:4b:42:61:c7:bd:5c:0d:ef:3d:6e:4e:03"
+        },
+        "tls": {
+          "tls.record": {
+            "tls.record.content_type": "22",
+            "tls.record.version": "0x0301",
+            "tls.record.length": "1870",
+            "tls.handshake": {
+              "tls.handshake.type": "1",
+              "tls.handshake.length": "1866",
+              "tls.handshake.version": "0x0303",
+              "tls.handshake.version_tree": {
+                "_ws.expert": {
+                  "tls.handshake.legacy_version": "",
+                  "_ws.expert.message": "This legacy_version field MUST be ignored. The supported_versions extension is present and MUST be used instead.",
+                  "_ws.expert.severity": "2097152",
+                  "_ws.expert.group": "234881024"
+                }
+              },
+              "tls.handshake.random": "a2:28:02:25:00:ae:a1:4f:38:88:5a:83:d3:3c:75:ac:30:8f:8f:5b:b8:45:81:86:54:61:8b:2a:2a:f4:1c:3a",
+              "tls.handshake.session_id_length": "32",
+              "tls.handshake.session_id": "c2:4b:76:1c:58:91:43:f6:b9:41:dd:ce:dc:e6:7c:c4:e9:07:7e:f0:2f:16:30:97:c8:4b:83:dd:01:73:9a:8f",
+              "tls.handshake.cipher_suites_length": "32",
+              "tls.handshake.ciphersuites": {
+                "tls.handshake.ciphersuite": "0x4a4a",
+                "tls.handshake.ciphersuite": "0x1301",
+                "tls.handshake.ciphersuite": "0x1302",
+                "tls.handshake.ciphersuite": "0x1303",
+                "tls.handshake.ciphersuite": "0xc02b",
+                "tls.handshake.ciphersuite": "0xc02f",
+                "tls.handshake.ciphersuite": "0xc02c",
+                "tls.handshake.ciphersuite": "0xc030",
+                "tls.handshake.ciphersuite": "0xcca9",
+                "tls.handshake.ciphersuite": "0xcca8",
+                "tls.handshake.ciphersuite": "0xc013",
+                "tls.handshake.ciphersuite": "0xc014",
+                "tls.handshake.ciphersuite": "0x009c",
+                "tls.handshake.ciphersuite": "0x009d",
+                "tls.handshake.ciphersuite": "0x002f",
+                "tls.handshake.ciphersuite": "0x0035"
+              },
+              "tls.handshake.comp_methods_length": "1",
+              "tls.handshake.comp_methods": {
+                "tls.handshake.comp_method": "0"
+              },
+              "tls.handshake.extensions_length": "1761",
+              "Extension: Reserved (GREASE) (len=0)": {
+                "tls.handshake.extension.type": "43690",
+                "tls.handshake.extension.len": "0",
+                "tls.handshake.extension.data": ""
+              },
+              "Extension: psk_key_exchange_modes (len=2)": {
+                "tls.handshake.extension.type": "45",
+                "tls.handshake.extension.len": "2",
+                "tls.extension.psk_ke_modes_length": "1",
+                "tls.extension.psk_ke_mode": "1"
+              },
+              "Extension: signed_certificate_timestamp (len=0)": {
+                "tls.handshake.extension.type": "18",
+                "tls.handshake.extension.len": "0"
+              },
+              "Extension: server_name (len=18) name=yusufasik.com": {
+                "tls.handshake.extension.type": "0",
+                "tls.handshake.extension.len": "18",
+                "Server Name Indication extension": {
+                  "tls.handshake.extensions_server_name_list_len": "16",
+                  "tls.handshake.extensions_server_name_type": "0",
+                  "tls.handshake.extensions_server_name_len": "13",
+                  "tls.handshake.extensions_server_name": "yusufasik.com"
+                }
+              },
+              "Extension: status_request (len=5)": {
+                "tls.handshake.extension.type": "5",
+                "tls.handshake.extension.len": "5",
+                "tls.handshake.extensions_status_request_type": "1",
+                "tls.handshake.extensions_status_request_responder_ids_len": "0",
+                "tls.handshake.extensions_status_request_exts_len": "0"
+              },
+              "Extension: key_share (len=1263) Unknown (4588), x25519": {
+                "tls.handshake.extension.type": "51",
+                "tls.handshake.extension.len": "1263",
+                "Key Share extension": {
+                  "tls.handshake.extensions_key_share_client_length": "1261",
+                  "Key Share Entry: Group: Reserved (GREASE), Key Exchange length: 1": {
+                    "tls.handshake.extensions_key_share_group": "56026",
+                    "tls.handshake.extensions_key_share_key_exchange_length": "1",
+                    "tls.handshake.extensions_key_share_key_exchange": "00"
+                  },
+                  "Key Share Entry: Group: Unknown (4588), Key Exchange length: 1216": {
+                    "tls.handshake.extensions_key_share_group": "4588",
+                    "tls.handshake.extensions_key_share_key_exchange_length": "1216",
+                    "tls.handshake.extensions_key_share_key_exchange": "02:f2:0a:91:97:ba:f6:07:50:75:01:5c:e3:73:28:2e:03:37:f5:51:92:01:bb:b9:cc:48:9b:68:31:9f:4c:c7:85:93:92:4d:d1:a1:6b:36:28:ab:86:f9:83:c3:e6:4a:f8:c9:2a:ba:e5:63:2b:46:cc:c0:f0:5d:d8:67:85:83:0a:6d:60:53:81:8d:04:46:41:b1:2b:c0:69:2c:62:ea:ce:12:d9:5e:97:26:c9:8d:2c:b4:91:5c:20:e6:18:4a:27:15:75:58:65:5d:8d:6a:c3:0e:e1:a4:21:42:37:23:d3:4a:63:03:90:58:85:c1:5b:19:8c:dc:09:46:20:fb:19:bc:f1:a3:41:42:c0:fc:b8:0b:a0:c0:28:9b:81:98:a4:90:b4:34:89:1e:5d:1b:45:9a:21:31:6c:e9:47:12:76:55:dd:14:3c:d1:87:6d:bb:4c:a6:27:17:49:c0:96:16:2f:00:97:35:f0:61:52:51:aa:c3:74:0a:74:4b:4a:b8:e2:37:d2:68:54:f9:1c:64:6b:01:cb:70:9c:2f:cc:cc:77:8a:03:89:74:d0:50:1f:99:6b:e8:70:9a:05:9c:33:57:13:04:fa:10:30:9c:c0:4c:19:b7:a4:53:4b:b5:41:43:af:34:40:c7:cc:f1:75:8b:f8:61:15:ac:83:7d:a9:74:ec:f9:52:88:95:19:fc:91:83:5e:ac:03:00:f3:03:6b:fa:32:23:25:17:06:b5:98:0c:e8:76:e8:a3:cd:b1:86:2d:73:6b:69:50:f3:36:24:a0:20:5c:72:86:86:64:85:9a:46:c1:8b:e0:93:ff:83:8c:f1:b7:66:b5:c6:72:24:1c:10:99:9a:a3:dd:91:8d:58:01:28:0c:3c:c9:91:50:4e:5f:51:72:3e:0b:b4:8c:d8:8a:5d:73:78:bf:c9:1e:43:b2:1b:5f:a1:0b:bf:66:86:73:f7:86:40:2b:1c:15:69:24:23:58:b1:78:54:09:04:01:a7:4d:d5:b0:ab:41:b2:97:1a:26:71:57:10:58:46:48:12:a5:8d:8a:6c:62:0f:f7:94:a8:b3:57:e4:62:c6:bd:63:52:db:80:05:a1:b1:5f:47:08:51:7a:c7:9d:34:5b:43:61:4c:c1:19:ac:0c:b3:f6:55:94:58:65:46:f3:ba:77:50:0d:63:80:9a:7e:a9:b1:aa:30:24:31:00:44:68:99:a5:6c:50:74:3d:b1:79:92:82:be:7c:d0:56:dd:16:9d:c2:c4:31:18:70:37:5b:97:c7:98:db:77:88:32:1a:a2:65:7c:ad:98:0a:44:4a:5c:79:8b:92:74:22:2d:ef:c8:b6:9c:18:4d:83:87:a2:ee:92:29:56:83:bb:ba:ba:96:ef:20:8d:65:08:35:89:18:bb:1d:c5:ca:5e:e5:6b:04:50:39:21:f5:93:49:04:a1:5f:31:28:02:31:9b:9e:f9:b5:9b:a5:21:fd:d4:b2:78:1b:0b:dc:db:8e:ac:89:3b:fe:bb:9a:d4:f6:a4:fd:f0:ce:16:db:50:86:36:9d:5c:72:9e:08:79:bd:aa:ba:69:74:1c:0d:b0:08:9f:c5:72:70:9a:82:98:d4:47:71:42:15:63:bd:92:59:3d:63:3c:c9:ac:c4:cd:5c:26:32:62:2b:70:fc:cb:06:b9:19:ab:65:98:13:79:2f:13:13:93:ad:13:b9:c6:da:c2:bd:64:3d:40:c4:be:9f:63:ca:98:b1:a0:55:e1:29:44:41:5a:b7:58:1b:a7:c7:1b:d5:27:b5:dc:11:a1:66:70:20:17:1a:59:04:59:c2:4b:3b:a9:9f:68:71:07:8b:8c:76:a0:99:3d:b6:04:1b:c9:73:0b:9c:7e:18:9b:ba:ee:b0:5b:a1:73:cc:56:49:20:50:9c:0e:2b:2c:cf:1c:01:26:23:85:ab:8e:f3:79:74:5a:9a:97:f8:28:4b:50:89:e6:52:66:f6:23:70:8c:f6:77:53:55:8d:aa:02:24:a6:ba:c3:06:c7:cc:a9:ea:88:b4:d7:b9:b4:99:6e:0b:d2:56:81:89:6f:33:aa:68:4b:42:03:ce:d1:61:c1:68:8c:11:b4:45:52:79:3d:48:d1:c7:2e:67:6d:4c:a0:65:04:a1:c6:48:02:bb:20:da:07:ee:79:bf:7e:b3:04:92:f8:04:6d:83:06:a1:70:12:1d:69:5d:78:f3:61:f1:e1:a9:b6:b8:9f:4c:a2:c5:2e:fa:cf:15:6b:7b:58:71:4f:2d:e0:c9:28:f7:96:83:d1:14:c2:64:41:cf:bc:9e:aa:3c:b7:20:86:10:a0:77:94:a3:52:87:f3:d2:5d:80:c3:2d:3f:a7:91:0a:c5:c4:57:ca:58:cb:16:c3:bd:11:98:95:9a:14:54:16:ac:b5:a8:4d:f6:bc:86:03:65:05:bf:80:32:e5:82:9f:80:18:6d:09:ba:b2:b5:52:2a:ec:61:aa:b3:c3:9a:2e:00:c1:8e:35:71:d8:98:a3:e4:55:16:5c:02:5d:fb:f7:5c:cc:05:91:0f:9a:84:c5:78:52:21:56:aa:79:e8:3a:03:f6:63:80:c8:b5:bd:67:65:4d:7a:7d:1f:f6:c2:fc:9a:5e:2d:bb:21:8e:db:36:91:02:59:17:26:af:c9:31:58:f0:9c:ab:ea:ba:88:01:3c:89:d0:72:56:6d:7a:67:65:37:06:80:00:25:7a:70:49:9c:8c:87:09:02:46:f9:57:9d:be:cb:c9:6c:c7:5e:f4:9a:08:f7:0a:ca:d8:7b:c2:65:16:51:9c:82:47:8a:62:c8:9e:5c:ba:47:0a:6e:6a:69:a7:0f:c5:0d:ad:04:be:79:e1:2a:32:b1:51:c8:92:79:11:f4:2b:95:b8:1f:0f:e8:11:23:90:1c:75:00:59:68:76:5f:02:10:40:61:aa:5e:79:c8:4c:2c:c8:94:de:b4:62:be:9a:42:65:98:1b:81:07:cb:2e:36:9e:05:a8:ca:cc:ea:07:33:c9:69:47:c8:75:0d:95:7c:42:45:ad:43:2c:4c:b4:be:2a:d4:65:b0:78:e9:8d:38:39:60:d8:2a:c0:d9:50:47:03:7b:db:b4:39:d5:b2:4f:fe:7b:2e:b3:94:ef:43:fb:25:b5:c9:cc:bb:a4:da:10:78:7f:bb:7e:2f:f5:43:e4:fd:95:36:8a:82:30:0c:e6:78:84:39"
+                  },
+                  "Key Share Entry: Group: x25519, Key Exchange length: 32": {
+                    "tls.handshake.extensions_key_share_group": "29",
+                    "tls.handshake.extensions_key_share_key_exchange_length": "32",
+                    "tls.handshake.extensions_key_share_key_exchange": "e9:66:da:94:47:b4:b0:51:9b:df:8c:69:78:81:ab:9c:84:67:f3:1a:9f:61:5e:3c:00:db:d0:db:49:68:f2:0c"
+                  }
+                }
+              },
+              "Extension: renegotiation_info (len=1)": {
+                "tls.handshake.extension.type": "65281",
+                "tls.handshake.extension.len": "1",
+                "Renegotiation Info extension": {
+                  "tls.handshake.extensions_reneg_info_len": "0"
+                }
+              },
+              "Extension: supported_versions (len=7) TLS 1.3, TLS 1.2": {
+                "tls.handshake.extension.type": "43",
+                "tls.handshake.extension.len": "7",
+                "tls.handshake.extensions.supported_versions_len": "6",
+                "tls.handshake.extensions.supported_version": "0x4a4a",
+                "tls.handshake.extensions.supported_version": "0x0304",
+                "tls.handshake.extensions.supported_version": "0x0303"
+              },
+              "Extension: extended_master_secret (len=0)": {
+                "tls.handshake.extension.type": "23",
+                "tls.handshake.extension.len": "0"
+              },
+              "Extension: signature_algorithms (len=18)": {
+                "tls.handshake.extension.type": "13",
+                "tls.handshake.extension.len": "18",
+                "tls.handshake.sig_hash_alg_len": "16",
+                "tls.handshake.sig_hash_algs": {
+                  "tls.handshake.sig_hash_alg": "0x0403",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "4",
+                    "tls.handshake.sig_hash_sig": "3"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0804",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "8",
+                    "tls.handshake.sig_hash_sig": "4"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0401",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "4",
+                    "tls.handshake.sig_hash_sig": "1"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0503",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "5",
+                    "tls.handshake.sig_hash_sig": "3"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0805",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "8",
+                    "tls.handshake.sig_hash_sig": "5"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0501",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "5",
+                    "tls.handshake.sig_hash_sig": "1"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0806",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "8",
+                    "tls.handshake.sig_hash_sig": "6"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x0601",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "6",
+                    "tls.handshake.sig_hash_sig": "1"
+                  }
+                }
+              },
+              "Extension: application_layer_protocol_negotiation (len=14)": {
+                "tls.handshake.extension.type": "16",
+                "tls.handshake.extension.len": "14",
+                "tls.handshake.extensions_alpn_len": "12",
+                "tls.handshake.extensions_alpn_list": {
+                  "tls.handshake.extensions_alpn_str_len": "2",
+                  "tls.handshake.extensions_alpn_str": "h2",
+                  "tls.handshake.extensions_alpn_str_len": "8",
+                  "tls.handshake.extensions_alpn_str": "http/1.1"
+                }
+              },
+              "Extension: encrypted_client_hello (len=186)": {
+                "tls.handshake.extension.type": "65037",
+                "tls.handshake.extension.len": "186",
+                "tls.ech.client_hello_type": "0",
+                "tls.ech.hpke.keyconfig.cipher_suite": {
+                  "tls.ech.hpke.keyconfig.cipher_suite.kdf_id": "1",
+                  "tls.ech.hpke.keyconfig.cipher_suite.aead_id": "1"
+                },
+                "tls.ech.config_id": "132",
+                "tls.ech.enc_length": "32",
+                "tls.ech.enc": "7f:ce:b6:11:b2:cd:10:47:c9:d9:0c:49:b9:db:f1:05:02:11:99:eb:ed:2d:44:de:4e:73:c5:f6:0b:c0:70:11",
+                "tls.ech.payload_length": "144",
+                "tls.ech.payload": "8e:e2:05:5a:dc:6e:54:19:26:7e:6e:54:2a:15:ed:5f:da:7d:fc:39:34:16:d1:13:e7:8f:37:0a:85:1d:3e:b3:5d:88:e8:b9:df:e0:58:38:ac:48:5d:00:dc:66:e7:78:eb:b0:2d:90:2d:8a:cd:fa:f6:bd:a7:36:8f:18:a4:5d:ca:1d:96:15:fc:15:19:1a:a6:a9:73:5e:de:cb:06:c0:ae:98:94:2e:7c:84:a8:04:4f:63:4c:24:ad:80:c2:3f:62:79:0f:0f:ad:82:72:9c:c3:db:26:22:e0:23:6c:6d:b4:d7:d5:35:2d:26:d4:fc:3a:52:fc:6d:55:94:7c:31:87:13:8f:3f:87:76:57:47:19:19:61:5e:03:84:36:ed"
+              },
+              "Extension: ec_point_formats (len=2)": {
+                "tls.handshake.extension.type": "11",
+                "tls.handshake.extension.len": "2",
+                "tls.handshake.extensions_ec_point_formats_length": "1",
+                "tls.handshake.extensions_ec_point_formats": {
+                  "tls.handshake.extensions_ec_point_format": "0"
+                }
+              },
+              "Extension: supported_groups (len=12)": {
+                "tls.handshake.extension.type": "10",
+                "tls.handshake.extension.len": "12",
+                "tls.handshake.extensions_supported_groups_length": "10",
+                "tls.handshake.extensions_supported_groups": {
+                  "tls.handshake.extensions_supported_group": "0xdada",
+                  "tls.handshake.extensions_supported_group": "0x11ec",
+                  "tls.handshake.extensions_supported_group": "0x001d",
+                  "tls.handshake.extensions_supported_group": "0x0017",
+                  "tls.handshake.extensions_supported_group": "0x0018"
+                }
+              },
+              "Extension: session_ticket (len=0)": {
+                "tls.handshake.extension.type": "35",
+                "tls.handshake.extension.len": "0",
+                "tls.handshake.extensions.session_ticket": ""
+              },
+              "Extension: compress_certificate (len=3)": {
+                "tls.handshake.extension.type": "27",
+                "tls.handshake.extension.len": "3",
+                "tls.compress_certificate.algorithms_length": "2",
+                "tls.compress_certificate.algorithm": "2"
+              },
+              "Extension: Unknown type 17613 (len=5)": {
+                "tls.handshake.extension.type": "17613",
+                "tls.handshake.extension.len": "5",
+                "tls.handshake.extension.data": "00:03:02:68:32"
+              },
+              "Extension: Reserved (GREASE) (len=1)": {
+                "tls.handshake.extension.type": "19018",
+                "tls.handshake.extension.len": "1",
+                "tls.handshake.extension.data": "00"
+              },
+              "Extension: pre_shared_key (len=148)": {
+                "tls.handshake.extension.type": "41",
+                "tls.handshake.extension.len": "148",
+                "Pre-Shared Key extension": {
+                  "tls.handshake.extensions.psk.identities.length": "111",
+                  "PSK Identity (length: 105)": {
+                    "tls.handshake.extensions.psk.identity.identity_length": "105",
+                    "tls.handshake.extensions.psk.identity.identity": "4b:15:6f:9b:71:43:ba:33:d4:5b:1c:14:da:35:18:45:2e:c8:14:2a:68:de:1e:2d:c8:a3:f0:a8:83:ae:e5:a0:95:9c:28:65:dc:d6:3b:a2:3e:22:97:06:37:25:60:a0:00:8d:6d:d2:0a:7c:0e:57:9c:6b:9a:d6:f2:54:2e:67:17:84:e8:5b:a5:48:f5:af:2f:3a:b7:f6:f1:3f:0d:be:19:a4:3c:d7:bc:86:bf:f3:b3:88:e2:04:7a:49:34:ed:26:17:7a:ed:48:cb:e6:5c:c5",
+                    "tls.handshake.extensions.psk.identity.obfuscated_ticket_age": "2965040663"
+                  },
+                  "tls.handshake.extensions.psk.binders_len": "33",
+                  "tls.handshake.extensions.psk.binders": ""
+                }
+              },
+              "tls.handshake.ja4": "t13d1517h2_8daaf6152771_b6f405a00624",
+              "tls.handshake.ja4_r": "t13d1517h2_002f,0035,009c,009d,1301,1302,1303,c013,c014,c02b,c02c,c02f,c030,cca8,cca9_0005,000a,000b,000d,0012,0017,001b,0023,0029,002b,002d,0033,44cd,fe0d,ff01_0403,0804,0401,0503,0805,0501,0806,0601",
+              "tls.handshake.ja3_full": "771,4865-4866-4867-49195-49199-49196-49200-52393-52392-49171-49172-156-157-47-53,45-18-0-5-51-65281-43-23-13-16-65037-11-10-35-27-17613-41,4588-29-23-24,0",
+              "tls.handshake.ja3": "43f94ebdd3ec63a03bf91e8c6428002f"
+            }
+          }
+        }
+      }
+    }
+  }
+]
