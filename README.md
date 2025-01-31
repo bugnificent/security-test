@@ -67,9 +67,6 @@ tls.handshake.extensions_server_name contains "yusufasik.com"
 - **Wireshark**: Network protocol analyzer for capturing the TLS handshake and generating the JSON file.
 - **JSON**: Standard data format used for storing and exchanging structured information.
 
-## License
-This project is licensed under the [MIT License](LICENSE) 
-
 ## Contributing
 
 If you would like to contribute to this repository:
@@ -77,6 +74,9 @@ If you would like to contribute to this repository:
 1. Fork the repository.
 2. Make your changes or add new accessibility testing results.
 3. Submit a pull request for review.
+
+## License
+This project is licensed under the [MIT License](LICENSE) 
 
 ---
 
