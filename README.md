@@ -76,7 +76,7 @@ If you would like to contribute to this repository:
 3. Submit a pull request for review.
 
 ## License
-This project is licensed under the [MIT License](LICENSE) 
+This project is licensed under the [Apache License](LICENSE) 
 
 ---
 
