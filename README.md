@@ -28,19 +28,26 @@ The HTML file consists of the following data:
   
 ## Purpose
 
-The purpose of this file is to provide a record of TLS handshakes for the domain `yusufasik.com`, which can be useful for:
+The purpose of this file is to provide a record of TLS handshakes for the domain `yusufasik.com`, along with automated security scan reports. which can be useful for:
 
 - **Security analysis**: Inspecting how the TLS handshake is conducted for this domain and whether there are any security concerns.
 - **Network troubleshooting**: Understanding the communication process and identifying potential issues with HTTPS connections.
 - **Compliance and auditing**: Ensuring the domain is using secure protocols and certificates for encrypted communication.
+- **Vulnerability assessment**: Using ZAP and Checkmarx reports to identify and remediate security risks in the application and network communication.
 
 ## How to Use
 
-To view the data:
+### Viewing the Wireshark JSON Data:
 
 1. Open the JSON file in any JSON viewer or text editor.
 2. Examine the details of the TLS handshake, focusing on the fields related to the `SNI` and cipher suites.
 3. Use the file for further analysis of SSL/TLS handshake security or to investigate specific network requests involving the domain `yusufasik.com`.
+
+### Interpreting the ZAP Report
+
+- The ZAP report is an .html file that provides detailed insights into potential security issues, such as:
+
+1. 
 
 ### Example of a Typical Entry
 
