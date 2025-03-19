@@ -45,6 +45,7 @@ The purpose of this repository is to provide a comprehensive record of TLS hands
 3. Use the file for further analysis of SSL/TLS handshake security or to investigate specific network requests involving the domain `yusufasik.com`.
 
 ### Example of a Typical Entry
+
 ```json
 {
   "frame_number": 1,
@@ -61,8 +62,6 @@ The purpose of this repository is to provide a comprehensive record of TLS hands
 }
 ```
 
-
-Copy
 ### Interpreting the ZAP Report
 The ZAP report is an `.html` file that provides detailed insights into potential security issues, such as:
 - **Cross-Site Scripting (XSS)**
@@ -101,6 +100,28 @@ The JSON file was generated using Wireshark with the following filter applied:
 ```sql
 tls.handshake.extensions_server_name contains "yusufasik.com"
 ```
+
+### Steps for Generating the File:
+1. **Capture Traffic**: Use Wireshark to capture network traffic on the desired network interface.
+2. **Apply the Filter**: Apply the filter `tls.handshake.extensions_server_name contains "yusufasik.com"` to capture only traffic related to the `yusufasik.com` domain.
+3. **Export to JSON**: Export the filtered packet capture to a JSON file format.
+4. **Save the File**: Store the file for later analysis or reporting.
+
+### ZAP and Checkmarx Reports
+1. **Run ZAP Scan**:
+   - Use OWASP ZAP to perform an automated security scan on the domain or application.
+   - Export the results as an `.html` file.
+2. **Run Checkmarx Scan**:
+   - Use the Checkmarx SAST tool to analyze the source code for vulnerabilities.
+   - Export the results in the desired format.
+
+---
+
+## Tools Used
+- **Wireshark**: Network protocol analyzer for capturing the TLS handshake and generating the JSON file.
+- **OWASP ZAP**: Open-source tool for finding vulnerabilities in web applications.
+- **Checkmarx**: Static Application Security Testing (SAST) tool for analyzing source code for security vulnerabilities.
+- **JSON**: Standard data format used for storing and exchanging structured information.
 
 ## Contributing
 
