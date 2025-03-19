@@ -47,17 +47,13 @@ The purpose of this file is to provide a record of TLS handshakes for the domain
 
 The ZAP report is an .html file that provides detailed insights into potential security issues, such as:
 
-1. Cross-Site Scripting (XSS)
+- Cross-Site Scripting (XSS)
+- SQL Injection
+- Insecure HTTP Headers
+- Broken Authentication
+- Security Misconfigurations
 
-2. SQL Injection
-
-3. Insecure HTTP Headers
-
-Broken Authentication
-
-Security Misconfigurations
-
-### Example of a Typical Entry
+### Example of a Typical JSON Entry
 
 ```json
 {
