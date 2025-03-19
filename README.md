@@ -76,20 +76,6 @@ The ZAP report is an `.html` file that provides detailed insights into potential
 3. Follow the **Recommendations** provided to address identified vulnerabilities.
 4. Mark any **False Positives** as resolved if they are not applicable.
 
-### Interpreting the Checkmarx Report
-The Checkmarx report analyzes the source code for security vulnerabilities, including:
-- **Code Injection**
-- **Hardcoded Secrets**
-- **Insecure Dependencies**
-- **Authentication Bypass**
-- **Data Exposure**
-
-#### Steps to Use:
-1. Open the Checkmarx report file.
-2. Review the **Vulnerability Types** and their severity levels.
-3. Examine the **Code Snippets** to locate the source of the issue.
-4. Follow the **Remediation Guidance** to fix the vulnerabilities.
-
 ---
 
 ## How to Generate the Files
