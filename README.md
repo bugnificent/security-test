@@ -5,7 +5,7 @@ Additionally, this repository includes automated security scan reports generated
 
 ## Overview
 
-The captured data includes detailed information about the SSL/TLS handshake process for requests that reference the domain `yusufasik.com`. This JSON file contains all relevant information regarding the server's public key, cipher suites, and other key aspects of the SSL/TLS connection setup.
+The captured data includes detailed information about the SSL/TLS handshake process for requests that reference the domain `yusufasik.com`. This JSON file contains all relevant information regarding the server's public key, cipher suites, and other key aspects of the SSL/TLS connection setup. The repository also includes automated security scan reports to analyze potential vulnerabilities and ensure secure communication.
 
 ## File Structure
 
