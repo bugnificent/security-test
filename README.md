@@ -45,9 +45,17 @@ The purpose of this file is to provide a record of TLS handshakes for the domain
 
 ### Interpreting the ZAP Report
 
-- The ZAP report is an .html file that provides detailed insights into potential security issues, such as:
+The ZAP report is an .html file that provides detailed insights into potential security issues, such as:
 
-1. 
+1. Cross-Site Scripting (XSS)
+
+2. SQL Injection
+
+3. Insecure HTTP Headers
+
+Broken Authentication
+
+Security Misconfigurations
 
 ### Example of a Typical Entry
 
